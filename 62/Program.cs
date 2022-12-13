@@ -24,10 +24,10 @@ void Print2DArray(int[,] a)
 int[,] Change(int[,] a)
 {
     for(int i=0;i<a.GetLength(0);i++)
-        {
-     for(int j=0;j<a.GetLength(1);j++)
-        if (a[i,j]%2==0) a[i,j]=a[i,j]*(-1);
-        }
+    {
+        for(int j=0;j<a.GetLength(1);j++)
+            if (a[i,j]%2==0) a[i,j]=a[i,j]*(-1);
+    }
     return a;
 }
 

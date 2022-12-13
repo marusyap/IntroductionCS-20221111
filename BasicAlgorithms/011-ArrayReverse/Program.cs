@@ -30,7 +30,7 @@ void Reverse(int[] a)
 {
     int t;
     for(int i=0;i<a.Length/2;i++)
-     Swap(ref a[i],ref a[a.Length-1-i]);
+        Swap(ref a[i],ref a[a.Length-1-i]);
 }
 
 //Создали массив
